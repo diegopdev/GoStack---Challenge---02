@@ -1,0 +1,45 @@
+.container-post {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px -9px rgba(0, 0, 0, 0.75);
+  width: 90%;
+  margin-top: 20px;
+  padding: 5%;
+}
+
+.photo-post-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.photo-post-container img {
+  max-width: 40px;
+  max-height: 40px;
+  border-radius: 20px;
+}
+.photo-post {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  background-color: #000;
+}
+
+.photo-post p {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.author {
+  margin-left: 20px;
+}
+
+.content-post {
+  margin-top: 20px;
+}
+
+.data-post {
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ccc;
+  margin-top: 5px;
+}

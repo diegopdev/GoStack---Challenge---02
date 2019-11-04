@@ -1,0 +1,26 @@
+.btn-search input {
+  border: 2px #000;
+  border-radius: 2px;
+  width: 400px;
+  padding: 2px 0;
+  text-indent: 10px;
+}
+
+.btn-search input::placeholder {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-search button {
+  border: none;
+  margin-left: -2px;
+  height: 22px;
+  background-color: #f8f8ff;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  transition-duration: 0.5s;
+}
+
+.btn-search button:hover {
+  background-color: #dcdcdc;
+}

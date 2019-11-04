@@ -1,0 +1,19 @@
+.listIcons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 10%;
+}
+
+.listIcons-2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 8%;
+}
+
+.listIcons:after {
+  content: '';
+  border: 0.5px solid #3b5998;
+  border-bottom-width: 20px;
+}

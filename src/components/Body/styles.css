@@ -1,0 +1,31 @@
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.bg-body {
+  background-color: #e9ebee;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.menu-aside {
+  width: 20%;
+}
+
+.feed {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+}
+
+.adverts {
+  width: 30%;
+  height: 400px;
+}

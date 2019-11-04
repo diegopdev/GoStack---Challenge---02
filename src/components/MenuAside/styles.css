@@ -1,0 +1,42 @@
+.title {
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #cccccc;
+}
+
+.atalhos {
+  margin-top: 20px;
+}
+
+.explorar {
+  margin-top: 20px;
+}
+
+.btn {
+  border: none;
+  background-color: #e9ebee;
+  font-size: 10px;
+  color: #1e90ff;
+}
+
+.container-photo-profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 60%;
+  margin: 20px 0px 20px 7px;
+}
+
+.container-photo-profile img {
+  max-width: 40px;
+  max-height: 40px;
+}
+
+.container-photo-profile p {
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333333;
+}
